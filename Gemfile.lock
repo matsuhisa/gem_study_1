@@ -3,15 +3,24 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
+    coderay (1.1.1)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     diff-lcs (1.2.5)
     hashdiff (0.3.1)
+    method_source (0.8.2)
     mini_portile2 (2.1.0)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
     nokogirl (1.0)
       nokogiri
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-doc (0.9.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
     public_suffix (2.0.4)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
@@ -27,16 +36,20 @@ GEM
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
     safe_yaml (1.0.4)
+    slop (3.6.0)
     webmock (2.1.0)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
+    yard (0.9.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   nokogirl
+  pry
+  pry-doc
   rspec
   webmock
 
