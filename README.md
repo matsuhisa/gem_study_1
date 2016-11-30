@@ -28,4 +28,10 @@ rpsec --init
 
 - send を使う
 
+### 配列のテスト
+
+- RSpecのマッチャ
+- https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
+- http://qiita.com/jnchito/items/2e79a1abe7cd8214caa5
+
 ### RubyMine を使ってみる
